@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var todo = mongoose.model('movie2', {
-    name: {
+    text: {
         type: String,
         required:true,
         minlength:1,
